@@ -1,6 +1,6 @@
-base_url = "https://zola-after-dark.netlify.app"
+base_url = "https://blog.carrio.dev"
 compile_sass = true
-title = "after-dark theme"
+title = "0xc-dark theme"
 description = "A robust, elegant dark theme"
 generate_feed = true
 
@@ -10,7 +10,7 @@ taxonomies = [
 ]
 
 [extra]
-author = "Vincent"
+author = "Tom Carrio"
 after_dark_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},

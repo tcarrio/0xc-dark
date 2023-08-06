@@ -1,18 +1,23 @@
-name = "after-dark"
+name = "0xc-dark"
 description = "A robust, elegant dark theme"
 license = "MIT"
-homepage = "https://github.com/getzola/after-dark"
+homepage = "https://github.com/tcarrio/0xc-dark"
 min_version = "0.17.0"
-demo = "https://zola-after-dark.netlify.app"
+demo = "https://blog.carrio.dev"
 
 [extra]
 
 
 [author]
-name = "Vincent Prouillet"
-homepage = "https://www.vincentprouillet.com"
+name = "Tom Carrio"
+homepage = "https://tom.carrio.dev"
 
-[original]
+[[original]]
+author =  "Vincent Prouillet"
+homepage = "https://github.com/getzola/after-dark/"
+repo = "https://github.com/getzola/after-dark/"
+
+[[original]]
 author =  "comfusion"
-homepage = "https://git.habd.as/comfusion/after-dark/"
-repo = "https://git.habd.as/comfusion/after-dark/"
+homepage = "https://git.habd.as/comfusion/0xc-dark/"
+repo = "https://git.habd.as/comfusion/0xc-dark/"
