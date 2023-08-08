@@ -12,7 +12,10 @@
         <span class="muted">{{ post_macros::meta(page=page) }}</span>
     </header>
     <div itemprop="articleBody">
-      {{ page.content | safe }}
+        <hr/>
+        {{ post_macros::table_of_contents(page=page) }}
+        <hr />
+        {{ page.content | safe }}
     </div>
 
     {% block page_footer %}
