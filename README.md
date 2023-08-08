@@ -1,6 +1,6 @@
 # after-midnight
 
-TODO: Include a screenshot :)
+![After Midnight screenshot](./screenshot.png)
 
 ## Contents
 
