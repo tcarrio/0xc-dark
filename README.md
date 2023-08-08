@@ -1,4 +1,4 @@
-# 0xc-dark
+# after-midnight
 
 TODO: Include a screenshot :)
 
@@ -16,12 +16,12 @@ First download this theme to your `themes` directory:
 
 ```bash
 cd themes
-git clone https://github.com/tcarrio/0xc-dark.git
+git clone https://github.com/tcarrio/after-midnight.git
 ```
 and then enable it in your `config.toml`:
 
 ```toml
-theme = "0xc-dark"
+theme = "after-midnight"
 ```
 
 This theme requires your index section (`content/_index.md`) to be paginated to work:
