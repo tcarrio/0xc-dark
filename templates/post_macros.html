@@ -33,8 +33,9 @@
 {% endmacro page_in_list %}
 
 {% macro table_of_contents(page) %}
-Table of Contents:
 {% if page.toc %}
+<div class="toc">
+Table of Contents:
     <ul>
     {% for h1 in page.toc %}
         <li>
@@ -51,5 +52,6 @@ Table of Contents:
         </li>
     {% endfor %}
     </ul>
+</div>
 {% endif %}
 {% endmacro table_of_contents %}
