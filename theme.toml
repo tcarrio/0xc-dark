@@ -11,6 +11,7 @@ demo = "https://blog.carrio.dev"
 [author]
 name = "Tom Carrio"
 homepage = "https://tom.carrio.dev"
+repo = "https://github.com/tcarrio/0xc-dark/"
 
 [[original]]
 author =  "Vincent Prouillet"
@@ -19,5 +20,5 @@ repo = "https://github.com/getzola/after-dark/"
 
 [[original]]
 author =  "comfusion"
-homepage = "https://git.habd.as/comfusion/0xc-dark/"
-repo = "https://git.habd.as/comfusion/0xc-dark/"
+homepage = "https://git.habd.as/comfusion/after-dark/"
+repo = "https://git.habd.as/comfusion/after-dark/"
