@@ -43,6 +43,7 @@
                         <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
                           {% for item in config.extra.after_dark.home.menu %}
                           <a itemprop="url"
+                              rel="me"
                               class="disable-a-style {{onlyIconsClass}} {% if item.url | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}"
                               href="{{ item.url | safe | replace(from="$BASE_URL", to=config.base_url) | safe }}">
                               <span>
