@@ -70,7 +70,7 @@
                         {% if config.extra.after_dark.home.title %}
                         <div class="home-profile-title">
                           <h1>
-                            {{ config.extra.after_dark.home.title}}
+                            {{ config.extra.after_dark.home.title | safe }}
                           </h1>
                         </div>
                         {% endif %}
@@ -78,7 +78,7 @@
                         <div class="home-profile-subtitles">
                         {% for item in config.extra.after_dark.home.subtitles %}
                           <div>
-                            {{ item }}
+                            {{ item | safe }}
                           </div>
                           {% endfor %}
                         </div>
