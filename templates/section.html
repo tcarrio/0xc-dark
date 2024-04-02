@@ -36,10 +36,10 @@
     <body class="hack dark main container">
         {% block content %}
             {% block header %}
-                {% if config.extra.after_dark_blog_menu %}
+                {% if config.extra.after_dark.blog.menu %}
                     <header>
                         <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
-                        {% for item in config.extra.after_dark_blog_menu %}
+                        {% for item in config.extra.after_dark.blog.menu %}
                             <a itemprop="url"
                                class="{% if item.url | replace(from="$BASE_URL", to=config.base_url) == current_url %}active{% endif %}"
                                href="{{ item.url | safe | replace(from="$BASE_URL", to=config.base_url) | safe }}">
